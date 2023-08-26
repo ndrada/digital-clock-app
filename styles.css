@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #0091ec, #673ab7);
+    background: linear-gradient(#0091ec, #673ab7);
     font-family: 'Bagel Fat One', cursive;
     color: #fff;
     display: flex;
@@ -12,12 +12,13 @@ body {
 }
 
 .clock {
-    font-size: 6rem;
+    font-size: 10vw;
     display: flex;
-    gap: 1.5rem;
+    gap: 1.5vw;
     text-align: center;
+    text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1);
 }
 
 #seconds {
-    min-width: 5.5rem;
+    min-width: 1.5rem;
 }
